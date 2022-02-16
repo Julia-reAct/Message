@@ -1,0 +1,52 @@
+
+.AddPost{
+
+}
+.AddPost-header__title{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+    font-size:24px;
+
+}
+.AddPost-header__column{}
+.AddPost-header__form{
+    display: grid;
+    grid-template-rows: 1fr 7fr 1fr;
+
+}
+.AddPost-header__name{
+    font-size:20px;
+    background: gainsboro;
+    background: #EAEAEA;
+    border: 1px solid #E3E3E3;
+}
+.AddPost-header__text{
+    background: #EAEAEA;
+    font-size:20px;
+    resize: none;
+    margin: 5px 0px;
+    border: 1px solid #E3E3E3;
+}
+.AddPost-header__button{
+    display: flex;
+    justify-content: right;
+}
+.button{
+    font-size:20px;
+    width: 150px;
+    color: white;
+    background: black;
+    border: 1px solid black;
+    border-radius: 7px;
+    box-shadow: 2px 2px 1px 1px grey;
+}
+.button:active{
+    color: black;
+    background: white;
+}
+@media (max-width: 300px) {
+    .button{
+        width: 100px;
+    }
+}

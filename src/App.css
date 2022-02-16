@@ -1,0 +1,13 @@
+.App{
+    margin: 100px 100px 0px;
+}
+@media (max-width: 600px) {
+    .App{
+        margin: 40px;
+    }
+}
+@media (max-width: 414px) {
+    .App{
+        margin: 20px;
+    }
+}
